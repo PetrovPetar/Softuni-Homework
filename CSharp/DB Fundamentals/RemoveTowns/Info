@@ -1,0 +1,13 @@
+Write a program that deletes town which name is given as an input. Also, delete all addresses that are in those towns. 
+Print on the console the number addresses that were deleted. 
+You may also note that there are some Employees in that have addresses which may be a problem for deleting the addresses. 
+So first off start by setting the AddressID of each employee in for the given address to null. 
+After all of them are set to null, you may safely remove all the addresses from the context.
+Addresses and finally remove the given town. You may test this task locally, 
+so that you can see what happens for more than 1 case of deletion.
+
+Example
+
+Input	    Output
+Sofia	    1 address in Sofia was deleted
+Seattle  	44 addresses in Seattle were deleted
